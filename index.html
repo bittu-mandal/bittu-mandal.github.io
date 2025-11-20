@@ -8,6 +8,7 @@
   <meta name="description" content="Academic homepage of Bittu Mandal – migration, ageing and health, India." />
 </head>
 <body>
+  <!-- Top navigation -->
   <header class="site-header">
     <div class="container nav-container">
       <div class="brand">
@@ -27,31 +28,48 @@
   </header>
 
   <main>
-    <!-- Hero / Intro -->
-    <section class="hero">
-      <div class="container hero-content">
-        <div>
+    <!-- HERO SECTION WITH PHOTO -->
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div class="hero-text-block">
+          <p class="hero-kicker">Academic &amp; Policy Research</p>
           <h1>Dr. Bittu Mandal</h1>
           <p class="hero-subtitle">
             Consultant, National Centre for Good Governance (NCGG), Government of India<br />
             Ph.D. in Economics (Migration, Ageing &amp; Health), IIT Indore
           </p>
-          <p class="hero-text">
-            I am an economist and population researcher working at the intersection of
-            <strong>internal migration</strong>, <strong>ageing</strong>, and
-            <strong>health inequalities</strong> in India. My work combines
-            large-scale survey data, life-course perspectives, and policy evaluation
-            to understand how migration shapes wellbeing in later life.
+          <p class="hero-body">
+            I study how <strong>internal migration</strong>, <strong>ageing</strong>, and
+            <strong>health inequalities</strong> intersect in India. My work combines
+            large-scale survey data, life-course perspectives, and evaluation of governance
+            reforms to understand how migration shapes wellbeing in later life.
           </p>
           <div class="hero-actions">
             <a href="#publications" class="btn primary">View publications</a>
-            <a href="#cv" class="btn">Download CV</a>
+            <a href="#cv" class="btn ghost">Download CV</a>
           </div>
         </div>
+
+        <aside class="hero-card">
+          <div class="profile-photo">
+            <!-- This will show your image if you uploaded bittu-profile.jpg -->
+            <img src="bittu-profile.jpg" alt="Photo of Bittu Mandal" onerror="this.style.display='none';" />
+          </div>
+          <div class="hero-card-body">
+            <h2>Research focus</h2>
+            <ul>
+              <li>Internal migration &amp; life-course trajectories</li>
+              <li>Ageing &amp; health inequalities in LMICs</li>
+              <li>Urban exposure, obesity &amp; cardiometabolic risk</li>
+              <li>Later-life depression &amp; functional limitations</li>
+              <li>Governance &amp; public service delivery</li>
+            </ul>
+          </div>
+        </aside>
       </div>
     </section>
 
-    <!-- About -->
+    <!-- ABOUT -->
     <section id="about" class="section">
       <div class="container">
         <h2>About</h2>
@@ -64,7 +82,7 @@
           digital governance portals across Indian states.
         </p>
         <p>
-          I recently completed my <strong>Ph.D. in Economics</strong> at the
+          I completed my <strong>Ph.D. in Economics</strong> at the
           <strong>Indian Institute of Technology (IIT) Indore</strong>, Department of
           Humanities and Social Sciences, under the supervision of
           <strong>Dr. Kalandi Charan Pradhan</strong>. My doctoral research focuses on
@@ -72,164 +90,117 @@
           older adults in India, using data from large-scale surveys such as LASI and
           other national datasets.
         </p>
-        <p>
-          Broadly, my research interests include:
-        </p>
-        <ul>
-          <li>Internal migration and life-course trajectories</li>
-          <li>Ageing and health inequalities in low- and middle-income countries</li>
-          <li>Urban exposure, obesity, and cardiometabolic risks</li>
-          <li>Subjective wellbeing, mental health, and successful ageing</li>
-          <li>Governance and public service delivery in India</li>
-        </ul>
       </div>
     </section>
 
-    <!-- Research -->
+    <!-- RESEARCH CARDS -->
     <section id="research" class="section section-alt">
       <div class="container">
         <h2>Research</h2>
-        <h3>Current Themes</h3>
-        <ul>
-          <li>
-            <strong>Later-life migration and successful ageing:</strong>
-            How migration histories and urban exposure shape physical health,
-            functional limitations, depression, and subjective wellbeing among older
-            adults in India.
-          </li>
-          <li>
-            <strong>Urban exposure and obesity:</strong>
-            Investigating how the timing, duration, and intensity of urban residence
-            influence obesity and related health risks among middle- and older-aged
-            migrants.
-          </li>
-          <li>
-            <strong>Mental health and functional limitations:</strong>
-            Examining the pathways through which functional disabilities and social
-            exclusion affect depression among older migrants.
-          </li>
-          <li>
-            <strong>Governance and service delivery:</strong>
-            Evaluating the implementation of Right to Service Acts, digital portals,
-            and grievance redress systems in Indian states.
-          </li>
-        </ul>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Later-life migration &amp; successful ageing</h3>
+            <p>
+              How migration histories and urban exposure shape physical health,
+              functional limitations, depression, and subjective wellbeing among older
+              adults in India.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Urban exposure &amp; obesity</h3>
+            <p>
+              Investigating how timing, duration, and intensity of urban residence
+              influence obesity and cardiometabolic risks among migrants in mid and
+              later life.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Mental health &amp; disability</h3>
+            <p>
+              Examining how functional limitations, social exclusion, and access to
+              care interact to produce inequalities in late-life depression.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Governance &amp; service delivery</h3>
+            <p>
+              Evaluating RTS Acts, digital portals, and grievance redress mechanisms
+              using administrative data and mixed-methods designs.
+            </p>
+          </article>
+        </div>
 
-        <h3>Theoretical &amp; Conceptual Lens</h3>
-        <p>
-          My work draws on <strong>life-course perspectives</strong>,
-          <strong>cumulative (dis)advantage</strong>, and
-          <strong>capability approaches</strong> to understand how early-life and
-          mid-life opportunities and constraints shape health and wellbeing in older
-          age. I also engage with comparative frameworks linking migration,
-          urbanisation, and inequalities in later life.
+        <p class="note">
+          Conceptually, my work is informed by <strong>life-course perspectives</strong>,
+          <strong>cumulative (dis)advantage</strong>, and the <strong>capability approach</strong>,
+          linking early- and mid-life opportunities to health and wellbeing in older age.
         </p>
       </div>
     </section>
 
-    <!-- Publications -->
+    <!-- PUBLICATIONS -->
     <section id="publications" class="section">
       <div class="container">
         <h2>Selected Publications</h2>
 
-        <h3>Journal Articles</h3>
         <ol class="pub-list">
           <li>
             <strong>Mandal, B.</strong>, &amp; Pradhan, K. C. (2025).
-            Later-life migration and depression among older adults in India:
-            examining the role of functional limitations.
-            <em>Scientific Reports</em>, 15, 36832.
+            <em>Later-life migration and depression among older adults in India: examining the role of functional limitations.</em>
+            Scientific Reports, 15, 36832.
             <a href="https://doi.org/10.1038/s41598-025-14489-9" target="_blank" rel="noopener noreferrer">
               https://doi.org/10.1038/s41598-025-14489-9
             </a>
           </li>
           <li>
             <strong>Mandal, B.</strong>, &amp; Pradhan, K. C. (2025).
-            Understanding the impact of urban exposure on obesity among middle and
-            old-age migrants in India.
-            <em>PLOS ONE</em>, 20(7): e0326096.
+            <em>Understanding the impact of urban exposure on obesity among middle and old-age migrants in India.</em>
+            PLOS ONE, 20(7): e0326096.
             <a href="https://doi.org/10.1371/journal.pone.0326096" target="_blank" rel="noopener noreferrer">
               https://doi.org/10.1371/journal.pone.0326096
             </a>
           </li>
           <li>
             <strong>Mandal, B.</strong>, &amp; Pradhan, K. C. (in press).
-            Life after migration: A comparative study on successful ageing in India.
-            <em>Experimental Gerontology</em>.
+            <em>Life after migration: A comparative study on successful ageing in India.</em>
+            Experimental Gerontology.
           </li>
         </ol>
 
         <h3>Work in Progress</h3>
         <ul>
-          <li>
-            Later-life migration, multimorbidity, and healthcare utilisation in India:
-            evidence from large-scale ageing surveys.
-          </li>
-          <li>
-            Urban exposure, obesity, and cardiometabolic risks: heterogeneity by
-            gender, caste, and region.
-          </li>
-          <li>
-            Right to Service Acts and public service delivery in Indian states:
-            a comparative evaluation.
-          </li>
+          <li>Later-life migration, multimorbidity, and healthcare utilisation in India.</li>
+          <li>Urban exposure, obesity, and cardiometabolic risks across gender, caste, and region.</li>
+          <li>Right to Service Acts and public service delivery: comparative evaluation across Indian states.</li>
         </ul>
-
-        <p class="note">
-          A complete list of publications and working papers is available in my
-          <a href="#cv">CV</a>. You may also contact me by email for the latest versions of manuscripts.
-        </p>
       </div>
     </section>
 
-    <!-- Policy Work -->
+    <!-- POLICY -->
     <section id="policy" class="section section-alt">
       <div class="container">
         <h2>Policy &amp; Consultancy Work</h2>
         <p>
-          At the National Centre for Good Governance (NCGG), I contribute to
-          <strong>evaluation studies</strong> and <strong>policy support</strong> for
-          Union and State governments in India. My recent work includes:
+          At NCGG, I contribute to <strong>evaluation studies</strong> and
+          <strong>policy support</strong> for Union and State governments. Recent work includes:
         </p>
         <ul>
-          <li>
-            Assessing the implementation and outcomes of
-            <strong>Right to Service (RTS) Acts</strong> in states such as Haryana,
-            Maharashtra, and Madhya Pradesh.
-          </li>
-          <li>
-            Analysing administrative data from digital service delivery portals
-            (e.g., SARAL, Aaple Sarkar, MP e-District) to understand patterns in
-            applications, approvals, delays, and grievance redressal.
-          </li>
-          <li>
-            Supporting evaluations of national skill development and public service
-            schemes, including sampling design, survey tools, and analytical
-            frameworks.
-          </li>
+          <li>Assessing implementation and outcomes of RTS Acts in Haryana, Maharashtra, and Madhya Pradesh.</li>
+          <li>Analysing administrative data from digital service delivery portals (SARAL, Aaple Sarkar, MP e-District).</li>
+          <li>Supporting evaluations of national skill development and public-service schemes.</li>
         </ul>
-        <p>
-          These engagements allow me to bridge rigorous academic research with
-          <strong>practical governance reforms</strong> and contribute to
-          evidence-based policymaking in India.
-        </p>
       </div>
     </section>
 
-    <!-- Teaching -->
+    <!-- TEACHING -->
     <section id="teaching" class="section">
       <div class="container">
         <h2>Teaching &amp; Mentoring</h2>
         <p>
-          I have assisted in teaching undergraduate and postgraduate courses in
-          economics and quantitative methods (e.g., statistics for social sciences,
-          research methods, development economics) and have mentored students working
-          with large-scale survey data (LASI, NFHS, NSSO, and administrative
-          datasets).
+          I have assisted in teaching undergraduate and postgraduate courses in economics and quantitative methods,
+          and mentored students working with large-scale survey and administrative datasets.
         </p>
-        <p>
-          I am interested in developing and teaching courses on:
-        </p>
+        <p>I am interested in developing and teaching courses on:</p>
         <ul>
           <li>Migration, Urbanisation, and Inequality</li>
           <li>Economics of Ageing and Health</li>
@@ -243,25 +214,20 @@
     <section id="cv" class="section section-alt">
       <div class="container">
         <h2>Curriculum Vitae</h2>
+        <p>You can download my full CV here:</p>
         <p>
-          You can download my full CV here:
-        </p>
-        <p>
-          <a class="btn primary"
-             href="CV_Bittu_Mandal.pdf"
-             target="_blank"
-             rel="noopener noreferrer">
+          <a class="btn primary" href="CV_Bittu_Mandal.pdf" target="_blank" rel="noopener noreferrer">
             Download CV (PDF)
           </a>
         </p>
         <p class="note">
-          To make this link work, upload your CV as
-          <code>CV_Bittu_Mandal.pdf</code> to the same GitHub repository as this website.
+          To make this button work, upload your CV as <code>CV_Bittu_Mandal.pdf</code>
+          into this repository.
         </p>
       </div>
     </section>
 
-    <!-- Contact -->
+    <!-- CONTACT -->
     <section id="contact" class="section">
       <div class="container">
         <h2>Contact</h2>
@@ -272,8 +238,7 @@
         <p>
           <strong>Current position:</strong><br />
           Consultant, National Centre for Good Governance (NCGG)<br />
-          Ministry of Personnel, Public Grievances and Pensions<br />
-          Government of India, New Delhi
+          Ministry of Personnel, Public Grievances and Pensions, Government of India, New Delhi
         </p>
         <p>
           I am happy to connect with researchers, policymakers, and students working
@@ -286,6 +251,7 @@
   <footer class="site-footer">
     <div class="container">
       <p>&copy; <span id="year"></span> Bittu Mandal. All rights reserved.</p>
+      <a href="#top" class="back-to-top">Back to top ↑</a>
     </div>
     <script>
       document.getElementById('year').textContent = new Date().getFullYear();
