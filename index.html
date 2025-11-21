@@ -1,330 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Basic meta -->
-    <title>Dr. Bittu Mandal | Migration, Ageing &amp; Health</title>
-    <meta name="theme-color" content="#B97CF7" />
-    <meta name="description"
-          content="Academic homepage of Dr. Bittu Mandal – economist and population researcher working on internal migration, ageing, and health inequalities in India." />
-    <meta name="keywords"
-          content="Bittu Mandal, migration, ageing, health, India, LASI, NFHS, urban exposure, obesity, later-life health" />
-    <meta name="author" content="Bittu Mandal" />
-
-    <!-- Favicon (optional – add favicon.png to the repo if you want) -->
-    <link rel="shortcut icon" type="image/png" href="favicon.png" />
-
-    <!-- Main stylesheet (your neon theme CSS) -->
-    <link rel="stylesheet" href="style.css" />
-
-    <!-- Boxicons for icons -->
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-
-    <!-- Google fonts from original template -->
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bittu Mandal | Migration, Ageing & Health</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Academic homepage of Bittu Mandal – migration, ageing and health, India." />
 </head>
 
 <body>
-    <!-- HEADER / NAVBAR -->
-    <header class="header">
-        <a href="#home" class="logo">
-            <!-- If you later add a logo image, put <img src="logo.png" alt="Logo"> here -->
-            <span>BM</span>
-            <span class="animate" style="--i:1;"></span>
-        </a>
+<div class="page">
 
-        <div class="bx bx-menu" id="menu-icon">
-            <span class="animate" style="--i:2;"></span>
+  <!-- LEFT SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <!-- PHOTO / BASIC INFO -->
+      <div class="profile-block">
+        <div class="profile-photo">
+          <!-- upload your photo as bittu-profile.jpg -->
+          <img src="bittu-profile.jpg" alt="Photo of Bittu Mandal"
+               onerror="this.style.display='none';" />
+        </div>
+        <h1 class="name">Dr. Bittu Mandal</h1>
+        <p class="role">Migration, Ageing &amp; Health</p>
+        <p class="affiliation">
+          Fellow, National Centre for Good Governance (NCGG), Government of India<br />
+          Ph.D. Economics – IIT Indore
+        </p>
+      </div>
+
+      <!-- NAVIGATION -->
+      <nav class="side-nav">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#policy">Policy work</a>
+        <a href="#teaching">Teaching &amp; training</a>
+        <a href="#grants">Grants &amp; fellowships</a>
+        <a href="#skills">Data &amp; methods</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <!-- RESEARCH FOCUS BOX -->
+      <div class="highlight-box">
+        <h2>Research focus</h2>
+        <ul>
+          <li>Internal migration &amp; life-course</li>
+          <li>Ageing &amp; health inequalities</li>
+          <li>Urban exposure &amp; obesity</li>
+          <li>Hypertension &amp; multimorbidity</li>
+          <li>Governance &amp; service delivery</li>
+        </ul>
+      </div>
+
+    </div>
+  </aside>
+
+
+  <!-- RIGHT CONTENT -->
+  <main class="content">
+
+    <!-- HUGO-STYLE HERO PANEL -->
+    <section id="about" class="section hero-panel">
+      <div class="hero-grid">
+
+        <!-- LEFT: PHOTO + TEXT (like green card in screenshot) -->
+        <div class="hero-left">
+          <div class="hero-avatar">
+            <img src="bittu-profile.jpg" alt="Photo of Bittu Mandal"
+                 onerror="this.style.display='none';" />
+          </div>
+          <div class="hero-left-text">
+            <h2 class="hero-name">Dr. Bittu Mandal</h2>
+            <p class="hero-title">Fellow, National Centre for Good Governance (NCGG)</p>
+            <p class="hero-org">Government of India · New Delhi</p>
+            <p class="hero-field">Migration · Ageing · Health Inequalities</p>
+          </div>
         </div>
 
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#research">Research</a>
-            <a href="#publications">Publications</a>
-            <a href="#policy">Policy Work</a>
-            <a href="#cv">CV</a>
-            <a href="#contact">Contact</a>
+        <!-- RIGHT: ABOUT + CV BUTTON + INTERESTS & EDUCATION -->
+        <div class="hero-right">
+          <h2 class="hero-heading">About Me</h2>
+          <p class="hero-bio">
+            I am an economist and population researcher working at the intersection of
+            <strong>internal migration</strong>, <strong>ageing</strong>, and
+            <strong>health inequalities</strong> in India. I combine large-scale
+            ageing surveys such as LASI and NFHS with life-course and cumulative
+            (dis)advantage perspectives to understand how migration trajectories,
+            urban exposure, and functional limitations shape later-life health and wellbeing.
+          </p>
+          <p class="hero-bio">
+            I completed my <strong>Ph.D. in Economics</strong> at
+            <strong>IIT Indore</strong>, and hold prior training in Population Studies
+            from <strong>IIPS Mumbai</strong> and Geography from
+            <strong>BHU</strong> and the <strong>University of Burdwan</strong>.
+            Alongside academic work, I contribute to governance reforms and evaluation
+            studies at NCGG.
+          </p>
 
-            <span class="active-nav"></span>
-            <span class="animate" style="--i:2;"></span>
-        </nav>
-    </header>
+          <div class="hero-actions">
+            <a class="btn primary" href="BM_CV_PG.pdf" target="_blank" rel="noopener noreferrer">
+              Download CV
+            </a>
+          </div>
 
-    <!-- HOME / HERO -->
-    <section class="home show-animate" id="home">
-        <div class="home-content">
-            <h1>
-                <span class="kello">Hi, I’m</span>
-                <span class="gradient-animation">Dr. Bittu Mandal</span>
-                <span class="animate" style="--i:2;"></span>
-            </h1>
-
-            <div class="text-animate">
-                <h3>Economist &amp; Population Researcher</h3>
-                <span class="animate" style="--i:3;"></span>
+          <div class="hero-cols">
+            <div class="hero-col">
+              <h3>Interests</h3>
+              <ul>
+                <li>Internal migration &amp; life-course</li>
+                <li>Ageing and health inequalities in LMICs</li>
+                <li>Urban exposure, obesity &amp; cardiometabolic risk</li>
+                <li>Depression, disability &amp; social exclusion</li>
+              </ul>
             </div>
-
-            <p>
-                I work at the intersection of <strong>internal migration</strong>,
-                <strong>ageing</strong>, and <strong>health inequalities</strong> in India.
-                Using large-scale surveys such as LASI and NFHS, my research examines how
-                migration trajectories, urban exposure, and functional limitations shape
-                later-life health and wellbeing.
-                <span class="animate" style="--i:3;"></span>
-            </p>
-
-            <div class="btn-box">
-                <a href="#publications" class="btn">View Publications</a>
-                <a href="#cv" class="btn">Download CV</a>
-                <span class="animate" style="--i:5;"></span>
+            <div class="hero-col">
+              <h3>Education</h3>
+              <ul>
+                <li>Ph.D., Economics – IIT Indore</li>
+                <li>M.Phil., Population Studies – IIPS Mumbai</li>
+                <li>MPS, Population Studies – IIPS Mumbai</li>
+                <li>M.Sc., Geography – BHU</li>
+                <li>B.Sc., Geography – University of Burdwan</li>
+              </ul>
             </div>
+          </div>
         </div>
 
-        <!-- Social icons -->
-        <div class="home-sci">
-            <a href="mailto:mbittu545@gmail.com"><i class='bx bx-envelope'></i></a>
-            <a href="https://github.com/bittu-mandal" target="_blank"><i class='bx bxl-github'></i></a>
-            <!-- When you have LinkedIn / Scholar, you can add more icons here -->
-            <span class="animate" style="--i:6;"></span>
-        </div>
-
-        <!-- Background image hover area (uses your existing CSS) -->
-        <div class="home-imghover"></div>
-        <span class="animate home-img" style="--i:7;"></span>
-    </section>
-
-    <!-- ABOUT -->
-    <section class="about" id="about">
-        <h2 class="heading">
-            <span class="jello">About</span>
-            <span class="mello">Me</span>
-        </h2>
-
-        <!-- If you want a circular photo here, upload e.g. about.jpg and set src="about.jpg" -->
-        <div class="about-img">
-            <img src="profile.jpg" alt="Dr. Bittu Mandal" onerror="this.style.display='none';" />
-            <span class="circle-spin"></span>
-        </div>
-
-        <div class="about-content">
-            <h3>Migration, Ageing &amp; Health</h3>
-            <p>
-                I am a <strong>Fellow</strong> at the
-                <strong>National Centre for Good Governance (NCGG)</strong>, Government
-                of India, based in New Delhi. My work focuses on evaluation and
-                strengthening of public service delivery systems, including
-                <strong>Right to Service (RTS) Acts</strong> and digital governance
-                portals across Indian states.
-            </p>
-            <p>
-                I completed my <strong>Ph.D. in Economics</strong> at the Indian
-                Institute of Technology (IIT) Indore, under the supervision of
-                <strong>Dr. Kalandi Charan Pradhan</strong>. I also hold degrees in
-                Population Studies (IIPS Mumbai) and Geography (BHU, University of
-                Burdwan). My broader interest lies in understanding how mobility,
-                place, and institutions shape wellbeing over the life course.
-            </p>
-        </div>
+      </div>
     </section>
 
     <!-- RESEARCH -->
-    <section class="research" id="research">
-        <h2 class="heading">
-            <span class="kello">Research</span>
-        </h2>
+    <section id="research" class="section section-alt">
+      <h2>Research</h2>
 
-        <div class="section-inner">
-            <div class="section-box">
-                <h3>Migrants’ mental health</h3>
-                <p>
-                    Examining depression among later-life migrants, with a focus on age
-                    at migration, functional limitations, and cumulative disadvantage.
-                </p>
-            </div>
-
-            <div class="section-box">
-                <h3>Urban exposure &amp; obesity</h3>
-                <p>
-                    Studying how timing, duration, and intensity of urban residence
-                    influence obesity and cardiometabolic risk among middle- and
-                    older-aged migrants.
-                </p>
-            </div>
-
-            <div class="section-box">
-                <h3>Hypertension &amp; chronic disease</h3>
-                <p>
-                    Assessing links between rural-to-urban migration, hypertension
-                    onset, and multimorbidity in later life using longitudinal and
-                    cross-sectional data.
-                </p>
-            </div>
-
-            <div class="section-box">
-                <h3>Migration, ageing &amp; disparities</h3>
-                <p>
-                    Comparing health outcomes between migrant and non-migrant older
-                    adults in India using matching, decomposition, and life-course
-                    approaches.
-                </p>
-            </div>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Migrants’ mental health</h3>
+          <p>
+            Depression risk in later-life migrants, focusing on age at migration,
+            functional limitations, and social disadvantage.
+          </p>
         </div>
+        <div class="card">
+          <h3>Urban exposure &amp; obesity</h3>
+          <p>
+            How timing, duration, and intensity of urban exposure shape obesity and
+            cardiometabolic risk among middle- and older-aged migrants.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Hypertension &amp; chronic disease</h3>
+          <p>
+            Rural-to-urban migration and onset of hypertension and multimorbidity in
+            later life.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Migration, ageing &amp; disparities</h3>
+          <p>
+            Comparisons of migrant and non-migrant older adults’ health using
+            matching and decomposition methods.
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- PUBLICATIONS -->
-    <section class="publications" id="publications">
-        <h2 class="heading">
-            <span class="jello">Selected</span>
-            <span class="mello">Publications</span>
-        </h2>
+    <section id="publications" class="section">
+      <h2>Selected publications</h2>
 
-        <div class="section-inner">
-            <ul class="pub-list">
-                <li class="section-box">
-                    <strong>Mandal, B.</strong>, &amp; Pradhan, K. C. (forthcoming, 2025).
-                    <em>Understanding depression risk in migrants: The role of age at migration and functional limitations.</em>
-                    Scientific Reports.
-                </li>
-                <li class="section-box">
-                    <strong>Mandal, B.</strong>, &amp; Pradhan, K. C. (2025).
-                    <em>Understanding the impact of urban exposure on obesity among middle and old-age migrants in India.</em>
-                    PLOS ONE, 20(7): e0326096.
-                    <br />
-                    <a href="https://doi.org/10.1371/journal.pone.0326096" target="_blank">
-                        https://doi.org/10.1371/journal.pone.0326096
-                    </a>
-                </li>
-                <li class="section-box">
-                    <strong>Mandal, B.</strong>, &amp; Pradhan, K. C. (forthcoming, 2025).
-                    <em>Association between rural-to-urban migration and the onset of hypertension among middle-aged and older population in India.</em>
-                    BMC Public Health.
-                </li>
-                <li class="section-box">
-                    <strong>Mandal, B.</strong>, &amp; Pradhan, K. C. (2024).
-                    <em>A comparative study of health outcomes between elderly migrant and non-migrant population in India.</em>
-                    SSM – Population Health, 25, 101619.
-                </li>
-                <li class="section-box">
-                    <strong>Mandal, B.</strong>, Pradhan, K. C., Mohanty, P., &amp; Muhammad, T. (2023).
-                    <em>Migration status, physical limitations and associated self-rated health: a study of older Indian adults.</em>
-                    BMC Geriatrics, 23, 1–16.
-                </li>
-            </ul>
+      <ol class="pub-list">
+        <li>
+          <strong>Mandal, B.</strong>, &amp; Pradhan, K. C. (forthcoming, 2025).
+          <em>Understanding depression risk in migrants: The role of age at migration and functional limitations.</em>
+          Scientific Reports.
+        </li>
+        <li>
+          <strong>Mandal, B.</strong>, &amp; Pradhan, K. C. (2025).
+          <em>Understanding the impact of urban exposure on obesity among middle and old-age migrants in India.</em>
+          PLOS ONE, 20(7): e0326096.
+          <a href="https://doi.org/10.1371/journal.pone.0326096" target="_blank">https://doi.org/10.1371/journal.pone.0326096</a>
+        </li>
+        <li>
+          <strong>Mandal, B.</strong>, &amp; Pradhan, K. C. (forthcoming, 2025).
+          <em>Association between rural-to-urban migration and the onset of hypertension among middle-aged and older population in India.</em>
+          BMC Public Health.
+        </li>
+        <li>
+          <strong>Mandal, B.</strong>, &amp; Pradhan, K. C. (2024).
+          <em>A comparative study of health outcomes between elderly migrant and non-migrant population in India.</em>
+          SSM – Population Health, 25, 101619.
+        </li>
+        <li>
+          <strong>Mandal, B.</strong>, Pradhan, K. C., Mohanty, P., &amp; Muhammad, T. (2023).
+          <em>Migration status, physical limitations and associated self-rated health: a study of older Indian adults.</em>
+          BMC Geriatrics, 23, 1–16.
+        </li>
+      </ol>
 
-            <p class="section-note">
-                A complete list of publications, manuscripts under review, and work in progress
-                is available in my CV.
-            </p>
-        </div>
+      <p class="note">
+        A complete list of publications, manuscripts under review, and work in
+        progress is available in my CV.
+      </p>
     </section>
 
-    <!-- POLICY WORK -->
-    <section class="policy" id="policy">
-        <h2 class="heading">
-            <span class="kello">Policy</span>
-            <span class="mello">Work</span>
-        </h2>
-
-        <div class="section-inner">
-            <div class="section-box">
-                <p>
-                    At <strong>NCGG</strong>, I contribute to evaluation and advisory work for
-                    Union and State governments in India. Recent engagements include:
-                </p>
-                <ul>
-                    <li>
-                        Assessment of <strong>Right to Service (RTS) Acts</strong> in
-                        Haryana, Maharashtra, and Madhya Pradesh.
-                    </li>
-                    <li>
-                        Analysis of digital governance portals such as
-                        <strong>SARAL</strong>, <strong>Aaple Sarkar</strong>, and
-                        <strong>MP e-District</strong>.
-                    </li>
-                    <li>
-                        Support to impact assessments of national skill-development and
-                        public service delivery initiatives.
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <!-- POLICY -->
+    <section id="policy" class="section section-alt">
+      <h2>Policy work</h2>
+      <p>
+        At NCGG, I contribute to evaluation and advisory work for Union and State
+        governments in India. Recent engagements include:
+      </p>
+      <ul>
+        <li>Assessment of <strong>Right to Service (RTS) Acts</strong> in Haryana, Maharashtra, and Madhya Pradesh.</li>
+        <li>Analysis of digital service-delivery portals such as <strong>SARAL</strong>, <strong>Aaple Sarkar</strong> and <strong>MP e-District</strong>.</li>
+        <li>Support to evaluations of national skill-development and governance initiatives.</li>
+      </ul>
     </section>
 
-    <!-- CV DOWNLOAD -->
-    <section class="cv" id="cv">
-        <h2 class="heading">
-            <span class="jello">Curriculum</span>
-            <span class="mello">Vitae</span>
-        </h2>
+    <!-- TEACHING & TRAINING -->
+    <section id="teaching" class="section">
+      <h2>Teaching &amp; training</h2>
+      <p>
+        I have assisted in teaching economics and population studies and mentored
+        students working with large-scale survey and administrative data.
+      </p>
+      <ul>
+        <li>Workshops on applied econometrics and survey methods using NFHS/DHS, LASI, IHDS.</li>
+        <li>Training on migration research methods, ageing and health, and evaluation design.</li>
+      </ul>
+    </section>
 
-        <div class="section-inner">
-            <div class="section-box">
-                <p>
-                    For full details on education, publications, conference presentations,
-                    workshops, and policy evaluation work, please see my CV.
-                </p>
-                <div class="btn-box btns">
-                    <a href="BM_CV_PG.pdf" target="_blank" class="btn">Download CV (PDF)</a>
-                </div>
-                <p class="section-note">
-                    Make sure your CV file in this repository is named
-                    <code>BM_CV_PG.pdf</code>.
-                </p>
-            </div>
-        </div>
+    <!-- GRANTS & FELLOWSHIPS -->
+    <section id="grants" class="section section-alt">
+      <h2>Grants &amp; fellowships</h2>
+      <ul>
+        <li>UGC NET–JRF Fellowship in Economics (Ph.D.).</li>
+        <li>UGC NET–JRF Fellowship in Population Studies (M.Phil.).</li>
+        <li>MoHFW Fellowship, Government of India (MPS in Population Studies).</li>
+        <li>Travel grants from Government of India and professional associations.</li>
+      </ul>
+    </section>
+
+    <!-- DATA & METHODS -->
+    <section id="skills" class="section">
+      <h2>Data &amp; methods</h2>
+      <p>
+        I routinely work with LASI, NFHS (DHS), IHDS, WHO-SAGE, NSSO, Census of India,
+        and primary surveys.
+      </p>
+      <ul>
+        <li>OLS, logistic/probit, quantile regression, survival and hazard models.</li>
+        <li>Mediation and moderation, causal mediation, propensity score matching.</li>
+        <li>Decomposition, multilevel models, SEM, spatial analysis.</li>
+        <li>Stata (advanced), R (intermediate), spatial tools (GeoDA, ArcGIS).</li>
+      </ul>
+    </section>
+
+    <!-- CV -->
+    <section id="cv" class="section section-alt">
+      <h2>Curriculum Vitae</h2>
+      <p>Download my full CV:</p>
+      <p>
+        <a class="btn primary" href="BM_CV_PG.pdf" target="_blank" rel="noopener noreferrer">
+          Download CV (PDF)
+        </a>
+      </p>
     </section>
 
     <!-- CONTACT -->
-    <section class="contact" id="contact">
-        <h2 class="heading">
-            <span class="mello">Contact</span>
-            <span class="kello">Me</span>
-        </h2>
-
-        <div class="section-inner contact-inner">
-            <div class="section-box">
-                <p><strong>Email:</strong> <a href="mailto:mbittu545@gmail.com">mbittu545@gmail.com</a></p>
-                <p><strong>Current position:</strong> Fellow, National Centre for Good Governance (NCGG), Government of India.</p>
-                <p><strong>Location:</strong> New Delhi, India.</p>
-                <p class="section-note">
-                    Feel free to reach out regarding collaboration on migration, ageing,
-                    health, and governance research or policy evaluation.
-                </p>
-            </div>
-        </div>
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p><strong>Email:</strong> <a href="mailto:mbittu545@gmail.com">mbittu545@gmail.com</a></p>
+      <p><strong>Current position:</strong> Fellow, National Centre for Good Governance (NCGG), New Delhi, India.</p>
     </section>
 
-    <!-- SIMPLE FOOTER -->
-    <footer class="simple-footer">
-        <p>© <span id="year"></span> Bittu Mandal. All rights reserved.</p>
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Bittu Mandal. All rights reserved.</p>
+      <a href="#about" class="back-to-top">Back to top ↑</a>
     </footer>
 
-    <!-- Minimal JS: mobile menu + sticky header + year -->
-    <script>
-        const menuIcon = document.getElementById('menu-icon');
-        const navbar = document.querySelector('.navbar');
-        const header = document.querySelector('.header');
+  </main>
+</div>
 
-        if (menuIcon && navbar) {
-            menuIcon.addEventListener('click', () => {
-                navbar.classList.toggle('active');
-            });
-        }
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 
-        window.addEventListener('scroll', () => {
-            if (header) {
-                header.classList.toggle('sticky', window.scrollY > 50);
-            }
-        });
-
-        document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
 </body>
-
 </html>
