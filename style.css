@@ -41,7 +41,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("sidebar-bg.jpg");
+  background-image: url("sidebar-bg.jpeg");
   background-size: cover;
   background-position: center;
   filter: blur(10px) brightness(0.6);
