@@ -15,7 +15,7 @@
       <div class="sidebar-inner">
         <div class="profile-block">
           <div class="profile-photo">
-            <!-- Optional photo – leave as is if you don't have image -->
+            <!-- Optional photo – if no file, the circle stays as a ring -->
             <img src="bittu-profile.jpg"
                  alt="Profile photo of Bittu Mandal"
                  onerror="this.style.display='none';" />
@@ -28,6 +28,7 @@
           </p>
         </div>
 
+        <!-- ONLY THESE 5 LINKS -->
         <nav class="side-nav">
           <a href="#about">About</a>
           <a href="#research">Research</a>
@@ -41,7 +42,7 @@
     <!-- RIGHT CONTENT -->
     <main class="content">
 
-      <!-- ABOUT (matches screenshot text) -->
+      <!-- ABOUT -->
       <section id="about" class="section hero">
         <h2>About</h2>
         <p>
@@ -57,7 +58,7 @@
         </p>
       </section>
 
-      <!-- RESEARCH (matches screenshot cards) -->
+      <!-- RESEARCH -->
       <section id="research" class="section section-alt">
         <h2>Research</h2>
 
@@ -66,8 +67,8 @@
           <article class="card">
             <h3>Internal Migration &amp; Ageing</h3>
             <p>
-              Later-life health trajectories, depression, multimorbidity, and the role of migration
-              histories in shaping successful ageing.
+              Later-life health trajectories, depression, multimorbidity, and the role of
+              migration histories in shaping successful ageing.
             </p>
           </article>
 
@@ -82,16 +83,16 @@
           <article class="card">
             <h3>Mental Health &amp; Functional Limitations</h3>
             <p>
-              Functional disability, social exclusion, and pathways to depression among older adults
-              in India.
+              Functional disability, social exclusion, and pathways to depression among
+              older adults in India.
             </p>
           </article>
 
           <article class="card">
             <h3>Public Service Delivery</h3>
             <p>
-              Administrative data analysis of Right to Service Acts, digital platforms, and governance
-              reforms across Indian states.
+              Administrative data analysis of Right to Service Acts, digital platforms,
+              and governance reforms across Indian states.
             </p>
           </article>
 
@@ -141,4 +142,34 @@
              target="_blank"
              rel="noopener noreferrer">
             Download CV (PDF)
-          <
+          </a>
+        </p>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:mbittu545@gmail.com">mbittu545@gmail.com</a>
+        </p>
+        <p><strong>Location:</strong> New Delhi, India</p>
+        <p>
+          I am happy to connect with researchers, policymakers, and students working on
+          migration, ageing, health inequalities, and governance.
+        </p>
+      </section>
+
+      <footer class="site-footer">
+        <p>&copy; <span id="year"></span> Bittu Mandal</p>
+        <a href="#about" class="back-to-top">↑ Back to top</a>
+      </footer>
+
+    </main>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
